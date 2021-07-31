@@ -1,19 +1,20 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import * as ROUTES from './constants/routes';
+import "./styles/app.css";
+import * as ROUTES from "./constants/routes";
 
-const Login = lazy(() => import('./pages/login'));
+const Login = lazy(() => import("./pages/login"));
 
 function App() {
   return (
-  <Router>
-    <Suspense fallback={<p> Loading... </p>}>
-      <Switch>
-        <Route path={ROUTES.LOGIN} component={Login} />
-      </Switch>
-    </Suspense>
-  </Router>
-  )
+    <Router>
+      <Suspense fallback={<p> Loading... </p>}>
+        <Switch>
+          <Route path={ROUTES.LOGIN} component={Login} />
+        </Switch>
+      </Suspense>
+    </Router>
+  );
 }
 
 export default App;
