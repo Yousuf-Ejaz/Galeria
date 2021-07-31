@@ -20,7 +20,7 @@ export default function Header() {
             <h1 className="flex justify-center w-full">
               <Link to={ROUTES.DASHBOARD} aria-label="Galeria logo">
                 <img
-                  src="/images/logo1.png"
+                  src="/images/logo2.png"
                   alt="Galeria"
                   className="mt-2 w-7/12"
                 />
