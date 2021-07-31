@@ -3,7 +3,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fill: (theme) => ({
-      red: theme('colors.red.primary')
+      red: theme("colors.red.primary"),
+      yellow: theme("colors.yellow.primary")
     }),
     extend: {},
     colors: {
@@ -16,12 +17,15 @@ module.exports = {
         faded: "#00000059",
       },
       gray: {
-        base: '#616161',
-        background: '#fafafa',
-        primary: '#dbdbdb'
+        base: "#616161",
+        background: "#fafafa",
+        primary: "#dbdbdb",
       },
       red: {
-        primary: '#ed4956'
+        primary: "#ed4956",
+      },
+      yellow: {
+        primary: "#FEDD00",
       },
     },
     variants: {
