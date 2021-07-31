@@ -54,7 +54,7 @@ export default function Login() {
                     <form onSubmit={handleLogin} method="POST">
                         <input
                             type="text"
-                            aria-label="Enter yyour email address"
+                            aria-label="Enter your email address"
                             placeholder="Email Address"
                             className="text-sm text-gray-base w-full mr-3 py-5 px-4 h-2 border border-gray-primary rounded mb-2"
                             onChange={({ target }) => setEmailaddress(target.value)}
@@ -62,7 +62,7 @@ export default function Login() {
 
                         <input
                             type="password"
-                            aria-label="Enter yyour password"
+                            aria-label="Enter your password"
                             placeholder="Password"
                             className="text-sm text-gray-base w-full mr-3 py-5 px-4 h-2 border border-gray-primary rounded mb-2"
                             onChange={({ target }) => setPassword(target.value)}
@@ -79,7 +79,7 @@ export default function Login() {
                 </div>
                 <div className="flex justify-center items-center flex-col w-full bg-white p-4 border rounded border-gray-primary ">
                     <p className="text-sm">Don't have an account?{` `}</p>
-                    <Link to="/signup" className="font-bold text-blue-medium">
+                    <Link to={ROUTES.SIGN_UP} className="font-bold text-blue-medium">
                         Sign Up
                     </Link>
                 </div>
