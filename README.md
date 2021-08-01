@@ -1,6 +1,35 @@
 # Galeria
  A social media Application exclusively for sketch artists and painters.
- Watch it live at: https://galeria-sh.netlify.app/
+ Watch it live at: 
+
+<!-- TABLE OF CONTENTS -->
+
+## Table of Contents
+
+- [About the Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+- [Instructions](#usage)
+- [Contact](#maintainer)
+
+
+## Project Breakdown 
+I am an artist and a painter myself. So, I always felt the need to have a social platform exclusively for the display of Art peices. Actually, small artists struggle too much just to make way for single gallery exhibition. But now that the world is becoming growing global and digital by each passing day, we must also shift to online galleries and exhibitions. Carrying the same notion is our Submission called **Galeria**.
+The title of our Submission comes from the spanish translation of the word "Gallery".
+
+
+## About The Project
+
+It is a full stack social Media application. One can view the posted paintings , the quality, type and other specifications and interact with each other in the comment section provided.
+You can  use it live here: <a href="https://galeria-sh.netlify.app/">**Galeria**</a>
+
+
+### Built With
+
+- React
+- TailwindCSS
+- Firebase
+- Craco
 
 # Getting Started with Create React App
 
