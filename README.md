@@ -1,5 +1,6 @@
 # Galeria
  A social media Application exclusively for sketch artists and painters.
+ Watch it live at: https://galeria-sh.netlify.app/
 
 # Getting Started with Create React App
 
