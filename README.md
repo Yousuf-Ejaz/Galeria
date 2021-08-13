@@ -1,6 +1,6 @@
 # Galeria
  A social media Application exclusively for sketch artists and painters.
- To Log In Use: 
+ To Log In Use:-
  
     emailId: ejazahmadyousuf2@gmail.com
     password: test123
