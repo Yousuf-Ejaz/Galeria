@@ -1,6 +1,7 @@
 # Galeria
 
-Context : https://www.youtube.com/watch?v=zVM21Z_z8JA&ab_channel=YousufEjazAhmad
+## Context : https://www.youtube.com/watch?v=zVM21Z_z8JA&ab_channel=YousufEjazAhmad
+
  A social media Application exclusively for sketch artists and painters.
  To Log In Use:-
  
